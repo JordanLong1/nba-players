@@ -18,7 +18,8 @@ class GetPlayers extends React.Component {
     render() {
         return (
             <div> 
-            
+            <div><h1>Player List</h1></div>
+            <DisplayPlayers playerList={this.state.players}/>
              </div>
         )
     }
