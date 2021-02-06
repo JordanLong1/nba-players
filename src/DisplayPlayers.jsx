@@ -6,7 +6,9 @@ function DisplayPlayers({playerList}) {
         return (
             <div key={index}>
             <h4>{player.team_name}</h4>
-                <p>{player.name}</p>
+                <p>Player: {player.name}</p>
+                <p>PPG: {player.points_per_game}</p>
+                <p>RPG: {player.rebounds_per_game}</p>
             </div>
         )
     })
